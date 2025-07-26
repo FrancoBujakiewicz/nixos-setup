@@ -9,6 +9,6 @@
                       "M-1" 'switch-buffer-previous
                       "M-2" 'switch-buffer-next
                       "M-f" 'follow-hint
-                      "M-" 'history-backwards
-                      "M-" 'history-forwards)))))
+                      "M-backspace" 'history-backwards
+                      "M-keypadanter" 'history-forwards))))) ;; Enter = keypadanter
 
