@@ -209,9 +209,7 @@
   environment = { 
 
    systemPackages = with pkgs; [
-    
-     scrot # temporal!!
- 
+     
      alacritty
      betterlockscreen
      clang
