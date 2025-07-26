@@ -1,0 +1,18 @@
+# ~/.inputrc
+ 
+ # Important: Replace $BIND with your desired keybind e.g. "\ey" -> Alt+y or "C-l" -> "Ctrl+l".
+ # $BIND is just simbolic, you can't set variables directly in this file, you must hardcode it.
+ # "\C-u" clears the prompt before set the shortcut command, and "\n" runs the command automatically 
+ # jumping to next line, both "\C-u" and "\n" are optionally if you want to do their fucntions manually. 
+ 
+ "$BIND": "\C-uyazi\n"
+ "$BIND": "\C-usudo mount -t vfat /dev/sdb1 ~/Mount -o rw,uid=1000,gid=1000,umask=000\n"
+ "$BIND": "\C-usudo umount /dev/sdb1\n"
+ "$BIND": "\C-uclearn\n"
+ "$BIND": "\C-unmtui\n"
+ "$BIND": "\C-ucd ..\n"
+ "$BIND": "\C-usudo -E vim /etc/nixos/configuration.nix\n"
+ "$BIND": "~/python-wrapper\n"
+ "$BIND": "top\n"
+ "$BIND": "lsblk\n" 
+
