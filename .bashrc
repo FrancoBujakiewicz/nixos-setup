@@ -51,7 +51,7 @@
 
   export SCRIPT_RUNNING=1
 
-  ~/.caps_indicator &
+  ~/.caps_indicator.sh &
 
  fi
 
