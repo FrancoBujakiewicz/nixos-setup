@@ -1,7 +1,8 @@
-;; Main file where are loaded all configurations for Nyxt browser
 
-  (in-package #:nyxt)
+  (in-package #:nyxt-user)
 
-   (define-nyxt-user-system-and-load nyxt-user/basic-config
-     :components ("style" "keybindings")) ;; Adding wanted modules there
+   (define-nyxt-user-system-and-load nyxt-user/basic-config :components ("style" "keybindings"))
+
+   (define-configuration hint-mode
+    ((hinting-type :vi)))
 
